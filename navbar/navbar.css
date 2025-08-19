@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    margin-left:  100px;
+}
+.one{
+    background:chartreuse;
+    
+    width: 100px;
+}
+.navlink{
+    margin-left: 500px;
+    font-size: 30px;
+   
+}
+.searchbox{
+  width: 50px;
+}
+input{
+    width: 350px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+    margin-left: 30px;
+}
+body{
+    background-color: aqua;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin: auto;
+}

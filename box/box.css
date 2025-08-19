@@ -1,0 +1,36 @@
+div{
+    display:flex;
+    justify-content: center;
+    margin-inline-start: 120px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-style:oblique;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: crimson;
+}
+.one{
+    border: 20px groove red;
+  
+}
+.two{
+    border: 20px ridge rgb(201, 28, 16);
+
+}
+.three{
+    border: 20px inset aqua;
+  
+}
+.four{
+    border: 20px outset blueviolet;
+  
+}
+body{
+    
+   background:yellowgreen;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}

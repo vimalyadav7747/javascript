@@ -1,0 +1,50 @@
+.container div{
+    height: 100px;
+    width: 100px;
+}
+.one{
+    border: 8px solid blue;
+  background-color: aqua;  
+}
+.one:hover{
+    background-color: red;
+}
+.two{
+
+    border: 8px dashed red;
+    background-color: bisque;
+}
+.three{
+    border: 8px dotted aqua;
+    background-color: rgb(11, 73, 73);
+}
+
+.four{
+    border: 8px double gray; 
+    background-color: blueviolet;
+    
+} 
+
+.container{         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+    flex-wrap: wrap;
+}
+p{
+    line-height: 4;
+}
+
+li ul {
+    display: none;
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    cursor: pointer;
+}
+
+li:hover ul{
+    display: block;
+}
